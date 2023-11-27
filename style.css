@@ -1,0 +1,506 @@
+/* 
+Theme Name: Danki
+Theme URI: https://cursos.dankicode.com
+Autor: Alan Bida
+Autor URI: https://dankicode.com
+Description: Tema para o curso de wp da danki code
+Version: 1.0
+*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Agbalumo', serif}
+
+.center{
+    max-width: 1100px;
+    margin: 0px auto;
+    padding: 0px 2%;
+}
+
+.clear{clear: both;}
+
+.w50{float: left;width: 50%;padding: 0 15px;}
+
+section.topo{
+    background-image: linear-gradient(114deg, purple, blue);
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+/* MENU MOBILE */
+.menu-mobile{
+    display: none;
+    float: right;
+}
+
+.menu-mobile span{
+    font-size: 33px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-mobile ul{
+    left: 0;
+    display: none;
+    top: 90px;
+    width: 100%;
+    position: absolute;
+    list-style-type: none;
+  
+}
+
+.menu-mobile li{
+    text-align: center;
+    padding: 8px 0;
+    width: 100%;
+    background: white;
+    border-bottom:1px solid;
+}
+
+.menu-mobile a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.logo{
+    float: left;
+}
+
+.menu-desktop{
+    float: right;
+}
+
+.menu-desktop li{
+    display: inline-block;
+    margin:0 15px;
+}
+
+.menu-desktop a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-desktop a:hover{
+    color: rgb(236, 115, 236);
+}
+
+.time-descricao{
+    margin-top: 50px;
+    color: white
+}
+
+.time-descricao h2{
+font-size: 35px;
+}
+
+.time-descricao p{
+font-size: 14px;
+margin-top: 10px;
+max-width: 240px;
+}
+
+.time-descricao a{
+    display: inline-block;
+    margin-top: 14px;
+    padding: 10px 8px;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+    box-shadow: 0 20px 30px 0 rgba(37, 15, 138, 0,2);
+    border-radius: 6px;
+}
+
+.time-imagem img{max-width: 100%;}
+
+section.clientes-slider img{max-width: 100%;}
+
+
+
+
+.slick-dotted ul{
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.slick-dotted li{
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+    outline: 0;
+}
+
+.slick-dotted li button{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: #d8d8d8;
+    border-width: 0;
+    background: #d8d8d8;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.circle{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: -35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 10px 25px 0 rgba(37, 15, 139, 0.1);
+    text-align: center;
+    line-height: 70px;
+}
+
+section.clientes-slider{
+    padding: 60px 0;
+}
+    
+.circle span{
+    font-size: 40px;
+    color: darkblue;
+    position: relative;
+    top: 15px;
+}
+li.slick-active button{
+    background: blue;
+    color: blue;
+}
+
+section.diferenciais{
+    padding: 30px 0;
+}
+
+section.diferenciais h2{
+    color: black;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.icons-diferenciais{
+    display: flex;
+    margin-top: 80px;
+}
+
+.box-single-diferenciais{
+    text-align: center;
+    width: 33.3%;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
+.box-single-diferenciais img{
+    max-width: 100%;
+}
+
+.box-single-diferenciais h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+}
+
+.box-single-diferenciais p{
+    font-size: 14px;
+    color: black;
+}
+
+section.sobre-time{
+    padding: 40;
+    background-color: white;
+}
+
+.img-time img{max-width: 100%;}
+
+.time-descricao-2{
+    padding: 0 20px;
+}
+
+.time-descricao-2 h2{
+    color: black;
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.time-descricao-2 p{
+    color: black;
+    font-size: 15px;
+    padding-right: 30px;
+}
+
+section.depoimentos{
+    padding: 100px 0;
+    background-color: darkblue;
+}
+
+section.depoimentos h2{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.depoimentos-box{
+    margin: 10px auto;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+
+.depoimento-single{
+    width: 100%;
+    display: inline-block;
+}
+
+.depoimento-single p{
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.depoimento-single img {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+section.metodologia{
+    position: absolute;
+    max-width: 940px;
+    padding: 40px 0;
+    margin: 0 auto;
+    background: white;
+    border-top: 3px solid #ffca00;
+    box-shadow: 10px 20px 60px 0 rgba(0, 0, 0, 0.06);
+    text-align: center;
+    z-index: 10;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+section.metodologia h2{
+    color: darkviolet;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+section.metodologia p{
+    font-size: 14px;
+    color: lightgrey;
+    margin: 15px 0;
+}
+
+section.metodologia a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: darkviolet;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+footer{
+   position: relative;
+   padding-top: 400px;
+   padding-bottom: 100px;
+    background: white;
+}
+
+footer > .center{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-footer{
+    width: 20%;
+}
+
+.col-footer h2{
+    color: darkblue;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.col-footer a{
+    color: gray;
+    font-size: 13px;
+    display: block;
+    margin-top:  10px;
+}
+
+/* Página Sobre */
+section.sobre-equipe{
+    padding: 40px 0;
+}
+
+section.sobre-equipe img{
+    max-width: 100%;
+}
+
+.equipe.sobre.texto h2{
+    font-size: 45px;
+    color: black;
+    padding: 0 20px;
+}
+
+.equipe-sobre-texto p{
+    color: black;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 0 20px;
+}
+
+section.sobre-imagens{
+    padding: 100px 0;
+    background-color: rgb(252, 252, 252);
+}
+
+.sobre-imagens > .center{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-imagens img{
+    max-width: 100%;
+}
+
+.sobre-imagens .img-sobre{
+    padding: 0 30px;
+    width: 25%;
+}
+
+section.contato{
+    padding: 30px 0;
+}
+
+.contato-info h2{
+    color: black;
+    font-size: 43px;
+    font-weight: normal;
+}
+
+.contato-info p{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.mapa-container{
+    width: 100%;
+    padding-top: 50%;
+    position: relative;
+}
+
+div#mapa{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+}
+
+.contato-form{
+    padding: 0 30px;
+    margin-top: 40px;
+}
+
+.contato-form input[type=text]{
+    width: 100%;
+    height: 48px;
+    box-shadow: 0 2px 4px 0 rgba(92, 99, 110, 0.1);
+    margin-bottom: 15px;
+    border: solid 1px #e3e3e3;
+    font-size: 16px;
+}
+
+.contato-form select{
+    width: 100%;
+    height: 48px;
+    box-shadow: 0 2px 4px 0 rgba(92, 99, 110, 0.1);
+    margin-bottom: 15px;
+    border: solid 1px #e3e3e3;
+    font-size: 16px;
+}
+
+.contato-form textarea{
+    width: 100%;
+    height: 120px;
+    margin-bottom: 15px;
+    border: solid 1px #e3e3e3;
+    font-size: 16px;
+    padding-left: 8px;
+    box-shadow: 0 2px 4px 0 rgba(92, 99, 110, 0.1);
+    resize: none;
+}
+
+.contato-form input[type=submite]{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 20px 30px 0 rgba(203, 203, 302, 0.2);
+    background-color: #212a97;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 768px){
+    .box-single-diferenciais{
+        width: 100%;
+    }
+    .w50{
+        width: 100%;
+    }
+    .menu-desktop{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    .img-time{
+        margin-top: 30px;
+    }
+    .col-footer{
+        width: 100% !important;
+        text-align: center !important;
+        margin-bottom: 30px;
+    }
+
+    section.sobre-equipe img{
+        margin-top: 20px;
+    }
+
+    .sobre-imagens .img-sobre{
+        padding: 0 30px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
